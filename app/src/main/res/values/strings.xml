@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FootballMatchResults</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="goals">0</string>
+    <string name="fouls">0</string>
+    <string name="corners">0</string>
+    <string name="button_goals">Goals</string>
+    <string name="button_fouls">Fouls</string>
+    <string name="button_corners">Corners</string>
+    <string name="button_reset">Reset</string>
+    <string name="final_score">Final score</string>
+</resources>

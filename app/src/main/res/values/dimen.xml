@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutColumnsWidth">0dp</dimen>
+    <dimen name="layoutColumnPadding">24dp</dimen>
+    <dimen name="soreButtonMargin">8dp</dimen>
+    <dimen name="headerTextViewMargin">16dp</dimen>
+    <dimen name="headerTextSize">26sp</dimen>
+    <dimen name="columnsTextViewPadding">16dp</dimen>
+    <dimen name="columnsTextSize">24sp</dimen>
+    <dimen name="separatorLayoutWidth">1dp</dimen>
+    <dimen name="separatorLayoutMargin">16dp</dimen>
+    <dimen name="resetButtonMarginTop">32dp</dimen>
+    <dimen name="resetButtonMarginBottom">16dp</dimen>
+</resources>
