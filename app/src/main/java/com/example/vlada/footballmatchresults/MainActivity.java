@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
         cornersView.setText(String.valueOf(cornersTeamA));
     }
 
+
     /**
      * Displays the given score for Team B.
      */
@@ -144,10 +145,31 @@ public class MainActivity extends AppCompatActivity {
         cornersView.setText(String.valueOf(cornersTeamB));
     }
 
+    public void showResults (View v){
+        TextView resultA = findViewById(R.id.resultTeamA);
+        TextView resultB = findViewById(R.id.resultTeamB);
+        if (goalsTeamA > goalsTeamB){
+            resultA.setText(R.string.win);
+            resultB.setText(R.string.lose);
+        } else {
+            resultA.setText(R.string.lose);
+            resultB.setText(R.string.win);
+        }
+        if ((goalsTeamA != 0) && (goalsTeamA == goalsTeamB)){
+            resultA.setText(R.string.draw);
+            resultB.setText(R.string.draw);
+        }
+
+    }
+
     /**
      * Resets both team A and B score to zero and display reset score.
      */
     public void resetScore(View view) {
+        TextView resultA = findViewById(R.id.resultTeamA);
+        TextView resultB = findViewById(R.id.resultTeamB);
+        resultA.setText(null);
+        resultB.setText(null);
         goalsTeamA = 0;
         foulsTeamA = 0;
         cornersTeamA = 0;

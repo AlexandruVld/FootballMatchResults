@@ -10,4 +10,8 @@
     <string name="button_corners">Corners</string>
     <string name="button_reset">Reset</string>
     <string name="final_score">Final score</string>
+    <string name="win">Winner!</string>
+    <string name="lose">Loser!</string>
+    <string name="draw">Draw</string>
+    <string name="result">Results</string>
 </resources>

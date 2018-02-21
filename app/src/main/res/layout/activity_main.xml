@@ -57,6 +57,11 @@
                     android:onClick="addOneCornerTeamA"
                     android:text="@string/button_corners" />
 
+                <TextView
+                    android:id="@+id/resultTeamA"
+                    style="@style/columnsTextViews"
+                    android:text="" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -107,10 +112,20 @@
                     android:onClick="addOneCornerTeamB"
                     android:text="@string/button_corners" />
 
+                <TextView
+                    android:id="@+id/resultTeamB"
+                    style="@style/columnsTextViews"
+                    android:text="" />
+
 
             </LinearLayout>
 
         </LinearLayout>
+
+        <Button
+            style="@style/columnsButtons"
+            android:onClick="showResults"
+            android:text="@string/result" />
 
         <Button
             android:id="@+id/reset"
