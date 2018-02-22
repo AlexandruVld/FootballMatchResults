@@ -9,16 +9,11 @@
     </style>
 
     <style name="columnsLayout">
-        <item name="android:layout_width">@dimen/layoutColumnsWidth</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:orientation">vertical</item>
         <item name="android:paddingLeft">@dimen/layoutColumnPadding</item>
         <item name="android:paddingRight">@dimen/layoutColumnPadding</item>
     </style>
 
     <style name="columnsHeaderTextViews">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/button</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:gravity">center</item>
@@ -27,8 +22,6 @@
     </style>
 
     <style name="columnsTextViews">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/button</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:gravity">center</item>
@@ -38,8 +31,6 @@
     </style>
 
     <style name="teamsResults">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/button</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:gravity">center</item>
@@ -48,8 +39,6 @@
         <item name="android:textSize">@dimen/headerTextSize</item>
     </style>
     <style name="columnsButtons">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/button</item>
         <item name="android:layout_margin">@dimen/soreButtonMargin</item>
         <item name="android:background">@color/buttonBackground</item>
