@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FootballMatchResults</string>
-    <string name="team_a">Team A</string>
-    <string name="team_b">Team B</string>
+    <string name="team_a">Viitorul</string>
+    <string name="team_b">FCSB</string>
     <string name="goals">0</string>
     <string name="fouls">0</string>
     <string name="corners">0</string>

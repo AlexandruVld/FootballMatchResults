@@ -11,4 +11,6 @@
     <dimen name="separatorLayoutMargin">16dp</dimen>
     <dimen name="resetButtonMarginTop">32dp</dimen>
     <dimen name="resetButtonMarginBottom">16dp</dimen>
+    <dimen name="imageDimen">140dp</dimen>
+    <dimen name="layoutMargin">16dp</dimen>
 </resources>

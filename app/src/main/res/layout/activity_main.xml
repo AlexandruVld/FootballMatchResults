@@ -9,12 +9,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layoutMargin"
+        android:layout_marginTop="@dimen/layoutMargin"
         android:orientation="vertical">
-
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -22,8 +24,14 @@
                 android:layout_width="@dimen/layoutColumnsWidth"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/imageDimen"
+                    android:layout_height="@dimen/imageDimen"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/siglaviitorul"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     style="@style/columnsHeaderTextViews"
@@ -86,7 +94,6 @@
             <LinearLayout
                 android:layout_width="@dimen/separatorLayoutWidth"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/separatorLayoutMargin"
                 android:background="@color/button"
                 android:orientation="vertical">
 
@@ -99,6 +106,12 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <ImageView
+                    android:layout_width="@dimen/imageDimen"
+                    android:layout_height="@dimen/imageDimen"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/rszsteaua"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     style="@style/columnsHeaderTextViews"
